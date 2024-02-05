@@ -12,7 +12,7 @@ source venvTest/bin/activate
 **** upgrade pip
 pip3 install --upgrade pip
 
-*** insatll matplotlib
+*** instll matplotlib
 pip3 install matplotlib
 
 
@@ -23,8 +23,18 @@ deactivate
 
 ======
 **** Delete folder 
-Sudo rm -r  vent
+sudo rm -r  vent
 
+===========
 
-การทำ GIT ให้ทำระดับ source ได้เรา
-การทำ vent สามารถทำระดับ  workspace ได้
+Here's how you can ignore files or folders in Git:
+
+Create a file named .gitignore in the root directory of your Git repository. This file will contain the patterns of files or folders you want to ignore.
+
+Open the .gitignore file in a text editor.
+
+Add the file or folder patterns that you want to ignore, each on a new line. You can use wildcards and regular expressions to define patterns. For example, to ignore a file named secret.txt, you can simply add secret.txt to the .gitignore file. To ignore all files with a .log extension, you can add *.log. To ignore an entire folder named logs, you can add logs/.
+
+Save the .gitignore file.
+
+Commit the .gitignore file to your Git repository. This ensures that the patterns specified in the file are applied to your repository.
