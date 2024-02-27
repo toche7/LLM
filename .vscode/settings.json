@@ -12,5 +12,6 @@
         "Log": {
             "parser": "plain"
         }
-    }
+    },
+    "python.pythonPath": "venvMain/bin/python"
 }

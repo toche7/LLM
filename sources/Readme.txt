@@ -10,13 +10,15 @@ you will new to install brew for this
 *** Need to install python3 using brew for mac 
 brew install python3
 
+## need pyenv to controll the version of python
+
 ## install virtual environment 
 *** create the Virtual environment
-python3.11 -m venv venvMain
+python3 -m venv venv
 
 
 *** activate the Virtual environment
-source venvTest/bin/activate
+source venv/bin/activate
 
 ## Install the matplotlib for example
 **** upgrade pip
