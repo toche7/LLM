@@ -4,6 +4,7 @@
 
 ## install brew, the package managment software 
 you will new to install brew for this 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
 ## install python
