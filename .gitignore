@@ -1,5 +1,4 @@
-sources/.env
-.env
-.vscode/
+.vscode/*
 .venv
 .env
+
