@@ -2,3 +2,4 @@ sources/.env
 .env
 .vscode/
 .venv
+.env
